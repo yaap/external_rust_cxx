@@ -14,6 +14,7 @@ rust_library {
         "libcxxbridge03",
     ],
     shared_libs: ["libc++"],
+    host_supported: true,
 }
 
 cc_library_static {
