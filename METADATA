@@ -9,11 +9,11 @@ third_party {
     type: GIT
     value: "https://github.com/dtolnay/cxx.git"
   }
-  version: "251cf910ebb5cc6eb628a1e48cacbea6cfdf05c3"
+  version: "971082d9dc57e581e046b1b10596a97c41287374"
   license_type: NOTICE
   last_upgrade_date {
     year: 2021
-    month: 6
-    day: 23
+    month: 8
+    day: 9
   }
 }
