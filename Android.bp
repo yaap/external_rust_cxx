@@ -51,6 +51,7 @@ rust_library {
     ],
     shared_libs: ["libc++"],
     host_supported: true,
+    vendor_available: true,
     apex_available: [
         "//apex_available:platform",
         "com.android.btservices",
@@ -61,11 +62,12 @@ rust_library {
 }
 
 cc_library_static {
-    host_supported: true,
     name: "libcxxbridge05",
     defaults: ["rust_static_cc_lib_defaults"],
     cflags: ["-DRUST_CXX_NO_EXCEPTIONS"],
     srcs: ["src/cxx.cc"],
+    host_supported: true,
+    vendor_available: true,
     apex_available: [
         "//apex_available:platform",
         "com.android.btservices",
