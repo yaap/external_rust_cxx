@@ -16,7 +16,7 @@ rust_binary_host {
     srcs: ["src/main.rs"],
     edition: "2018",
     rustlibs: [
-        "libclap_deprecated",
+        "libclap",
         "libcodespan_reporting",
         "libcxxbridge_cmd",
         "libproc_macro2",
@@ -32,7 +32,7 @@ rust_library_host {
     srcs: ["src/lib.rs"],
     edition: "2018",
     rustlibs: [
-        "libclap_deprecated",
+        "libclap",
         "libcodespan_reporting",
         "libproc_macro2",
         "libquote",
