@@ -39,6 +39,10 @@ rust_library {
     crate_name: "cxx",
     srcs: ["src/lib.rs"],
     edition: "2018",
+    features: [
+        "alloc",
+        "std",
+    ],
     rustlibs: [
         "libanyhow",
         "libthiserror",
